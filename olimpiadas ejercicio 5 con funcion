@@ -1,0 +1,8 @@
+def inversa (frase):
+    print(frase[::-1])
+    return 
+
+
+
+frase = input("Introduce una frase: ")
+inversa (frase)
