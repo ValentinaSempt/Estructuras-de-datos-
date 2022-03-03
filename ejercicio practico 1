@@ -1,0 +1,8 @@
+# ejercico numero 14
+n=[]
+x=int(input("ingrese el numero: "))
+while x!=0:
+       n.append(x)
+       x=int (input("ingrese el numero: "))
+n.sort()      
+print ("la lista ordenada es:" ,n)
